@@ -3,6 +3,7 @@ import numpy as np
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
+watch_cascade = cv2.CascadeClassifier('haarcascade_watch.xml')
 
 cap = cv2.VideoCapture(0)
 
@@ -10,6 +11,11 @@ while 1:
     ret, img = cap.read()
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+    watches = watch_cascade.detectMultiScale(gray, 30, 30)
+    for (x, y, w, h) in watches:
+        font = cv2.FONT_HERSHEY_SIMPLEX
+        cv2.putText(img, 'Watch', (x - w, y - h), font, 0.5, (0, 255, 255), 2, cv2.LINE_AA)
+        # cv2.rectangle(img, (x, y), (x + w, y + h), (255, 255, 0), 2)
 
     for (x, y, w, h) in faces:
         cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)

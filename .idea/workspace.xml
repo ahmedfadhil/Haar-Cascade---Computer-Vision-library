@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd0ab12a-a421-45d9-9e22-60c1311442c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hc_custom.py" afterPath="$PROJECT_DIR$/hc_custom.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HC.py" afterPath="$PROJECT_DIR$/HC.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="HC.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HC.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            <state relative-caret-position="304">
+              <caret line="16" column="91" lean-forward="false" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -25,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hc_custom.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hc_custom.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hc_custom.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="355">
@@ -52,9 +52,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HC.py" />
         <option value="$PROJECT_DIR$/HC_custom.py" />
         <option value="$PROJECT_DIR$/hc_custom.py" />
+        <option value="$PROJECT_DIR$/HC.py" />
       </list>
     </option>
   </component>
@@ -93,11 +93,6 @@
             <path>
               <item name="HaarCascade" type="b2602c69:ProjectViewProjectNode" />
               <item name="HaarCascade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HaarCascade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HaarCascade" type="462c0819:PsiDirectoryNode" />
-              <item name="uglies" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,16 +209,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/neg/1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -243,6 +228,16 @@
           <caret line="56" column="32" lean-forward="false" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="91" lean-forward="false" selection-start-line="16" selection-start-column="91" selection-end-line="16" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
